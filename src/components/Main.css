@@ -1,25 +1,31 @@
 
-.row {
+.rows {
     display: flex;
     justify-content: center;
 }
 
-.container {
+.wordcontainer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 3%;
 }
   
 .box {
-    width: 90px;
-    height: 90px;
-    margin: 5px;
-    background-color: lightgray;
-    font-size: 60px;
+    width: 60px; 
+    height: 60px; 
+    margin: 2px;
+    font-size: 40px; 
     text-align: center;
-}
+    caret-color: white;
+  }
   
-.title {
-    font-size: 80px;
-    font-family: monospace;
-}
+  .title {
+    font-size: 60px;
+  }
+  
+  .submit {
+    font-size: 1rem; 
+    padding: 8px 16px;
+  }
+  
